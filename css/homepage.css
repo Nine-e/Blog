@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-03 21:44:15
+ * @version $Id$
+ */
+ .nav-link h6 {
+ 	color: black;
+ }
+ h2 span {
+	font-weight: 500;
+	margin-top: 15%;
+ }
+ .nav-itme h3 {
+ 	margin-top: 25%;
+ }
+ .nav-item h6 {
+ 	padding-top: 40%;
+ 	font-size: 1.1em;
+ }
+ .nav-content {
+ 	margin: 5% 0 4% 4%;
+ 	padding: 3% 36% 3% 6%;
+ 	font-size: 0.95em;
+ 	width: 150%;
+ 	background-color: #f6f6f6;
+ 	border: 0.05em solid #ebebeb;
+ }
+ .nav-question {
+ 	margin: 22% 0% 0 25%;
+ 	background-color: #0084ff;
+ 	color: white;
+ 	padding: 12.5% 25% 12.5% 25%;
+ 	border: none;
+ }
+ .nav-item input {
+ 	border-radius: 5px;
+ }
+ .nav-item img {
+ 	width: 109%;
+ 	margin: 38%;
+ 	padding: 0 0 0 55%;
+ }
