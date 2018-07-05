@@ -5,6 +5,9 @@
  * @date    2018-07-03 21:44:15
  * @version $Id$
  */
+ .homepage-nav {
+ 	height: 50px;
+ }
  .nav-link h6 {
  	color: black;
  }
@@ -20,15 +23,15 @@
  	font-size: 1.1em;
  }
  .nav-content {
- 	margin: 5% 0 4% 4%;
- 	padding: 3% 36% 3% 6%;
+ 	margin: 10% 0 4% 4%;
+ 	padding: 3% 20% 3% 6%;
  	font-size: 0.95em;
  	width: 150%;
  	background-color: #f6f6f6;
  	border: 0.05em solid #ebebeb;
  }
  .nav-question {
- 	margin: 22% 0% 0 25%;
+ 	margin: 55% 0% 0 -140%;
  	background-color: #0084ff;
  	color: white;
  	padding: 12.5% 25% 12.5% 25%;
@@ -38,7 +41,6 @@
  	border-radius: 5px;
  }
  .nav-item img {
- 	width: 109%;
- 	margin: 38%;
- 	padding: 0 0 0 55%;
+ 	margin: 40% 0% 0 0%;
+ 	padding: 0 0% 0 30px;
  }
