@@ -24,7 +24,7 @@ function init() {
 					{
 						swal({title:"发布成功！",
 							text:"您已经发布了这篇文章。",
-							type:"success"},function(){window.location.href="homepage.html"})
+							type:"success"},function(){window.location.href="../html/home.html"})
 					}
 					else{
 						swal({title:"已取消",

@@ -103,18 +103,16 @@
  	height: 240px;
  	margin-top: 65px;
  	width: 750px;
- 	/*position: absolute;
- 	height: 250px;
- 	top: 26%;
- 	left: 40%;*/
  }
  .middle-pic {
  	display: flex;
  	justify-content: center;
  	padding-top: 15%;
+ 	border: 1px solid red;
  }
  
  .middle-pic input {
+ 	border: 1px solid green;
  	opacity: 0;
  	position: absolute;
  	top: 45%;
