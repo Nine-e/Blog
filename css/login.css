@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-05 13:48:03
+ * @version $Id$
+ */
+ a:link{text-decoration:none;}
+ a:visited{text-decoration:none;}
+ a:active{text-decoration:none;}
+
+body{
+	display: block;
+	width: 100%;
+	margin:0;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+.loginRoot{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background: url(../pic/login-background.png);
+	background-color: #b8e5f8;
+    background-size: cover;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.loginContent{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 33%;
+	background-color: #fff;
+	border-radius: 2px;
+	padding-top: 20px;
+
+}
+.loginContentHeader h1{
+	color: #0084ff;
+	font-size: 45px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.loginContentHeader h3{
+	color: #0084ff;
+	font-size: 22px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.loginContentInner{
+	padding: 0 40px 36px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+.loginAccount{
+	height: 48px;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+.loginAccount input{
+	width: 100%;
+	height: 46px;
+	color: #1a1a1a;
+	font-size: 15px;
+	border: 0;
+	line-height: 48px;
+}
+.loginPassword{
+	height: 48px;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+.loginPassword input{
+	width: 100%;
+	height: 46px;
+	color: #1a1a1a;
+	font-size: 15px;
+	border: 0;
+	line-height: 48px;
+}
+.loginOptions{
+	margin-top: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 14px;
+}
+.loginOptions span{
+	color: #0084ff;
+}
+.loginButton{
+	width: 100%;
+	height: 34px;
+	background-color: #0084ff;
+	color: #fff;
+	border:1px solid #0084ff;
+	border-radius: 3px;
+	margin-top: 30px;
+
+}
+.loginToSign{
+	height: 58px;
+    border-top: 1px solid #ebebeb;
+    font-size: 16px;
+    line-height: 58px;
+}
+.loginToSign a{
+	color: #175199;
+}
