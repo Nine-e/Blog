@@ -1,0 +1,151 @@
+ul,li,span,img{padding:0;margin:0;font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;}
+p{text-align: justify;}
+button,input{outline:none;}
+button:hover{
+	opacity:1.1 ;
+}
+.m-content{
+	margin:0 auto;
+	width:700px;
+}
+.artical-image{
+	width:700px;
+	height:450px;
+}
+.title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top:25px;
+}
+.user-message{
+	display: flex;
+	padding:8px 0 12px 0;
+}
+.user-photo{
+	width:40px;
+	height:40px;
+	margin-right:15px;
+}
+.btn-gz{
+	margin-left:auto;
+	padding:5px 20px;
+	width:100px;
+	border-radius: 3px;
+}
+.btn-gz i{
+	margin-right:10px;
+}
+
+/* -- artical -- */
+.m-content p{
+	margin-top:10px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.m-content li{
+	margin-left:20px;
+	font-size: 16px;
+}
+.btn-group{margin-bottom:40px;}
+.btn-action{
+	padding:5px 10px;
+	color:#777;
+	background-color: white;
+	font-size: 14px;
+	border:0;
+}
+.btn-action i{margin-right:7px;}
+.btn-thumbs-up{
+	color:blue;
+	background-color: lightblue;
+	padding:8px 16px;
+}
+
+/* -- slice -- */
+.m-slice{
+	background: #eee;
+	padding:5px 0 30px 0;
+}
+.slice-title{
+	margin:20px auto;
+	padding:0 0 5px 0;
+	width: 700px;
+	border-bottom: solid 1px #ccc;
+}
+.slice-content{
+	min-width: 1024px;
+	border:solid 1px black;
+}
+.slice-content ul{
+	display: flex;
+	justify-content: center;
+}
+.slice-list{
+	margin-right:15px;
+	border-radius: 7px;
+	height:230px;
+	width:241px;
+	list-style: none;
+	background-color: white;
+	box-shadow: darkgrey 0 5px 10px 0px ;//边框阴影
+}
+.slice-list:hover{
+	transition: all 0.2s linear;
+	transform: scale(1.03);
+}
+.slice-image{
+	height:130px;
+	width:241px;
+}
+.slice-list div{
+	padding:15px 10px;
+}
+.slice-list p{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* -- comment -- */
+.m-comment{
+	margin:0 auto;
+	width:700px;
+}
+.comment-title{
+	padding:30px 0 20px 0;
+	border-bottom: solid 1px #ccc;
+}
+.write-comment{display: flex;}
+.input-comment{
+	display: inline-block;
+	width:100%;
+	height:40px;
+	margin-right: 0;
+	padding:10px;
+	font-size: 15px;
+	color:#777;
+	background-color: #eef;
+	border:solid 1px #ccc;
+}
+.btn-comment{
+	display: none;
+	padding:0 18px;
+	border-radius: 2px;
+	margin-left:auto;
+}
+.comment-list{
+	padding: 20px 0 15px 0;
+	list-style: none;
+	border-bottom:solid 1px #ccc;
+}
+.comment-list img{
+	height:28px;
+	width:28px;
+}
+.btn-action-1{
+	font-size: 12px;
+	padding:5px
+}
+.btn-thumbs-up-1{color:#333;}
+.btn-invisible{
+	display: none;
+}

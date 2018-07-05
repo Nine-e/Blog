@@ -1,0 +1,128 @@
+ul,li,img,button{padding:0;margin:0;font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;}
+li{list-style: none;}
+body{background-color: #eee;padding:0 20px;}
+button{outline:none;}
+/* -- top -- */
+.m-body{
+	margin:0 auto;
+	width:900px;
+}
+.m-top{
+	border:solid 1px #bbb;
+	border-radius: 3px;
+	background-color: white;
+}
+.top-background{
+	background-color: #aaa;
+	height:120px;
+	padding:20px;
+}
+.top-message{
+	height:110px;
+	padding:0 20px 0 200px;
+}
+.btn-top{
+	float: right;
+	padding:6px 15px;
+	background:none;
+	color:white;
+	border:solid 1px white;
+	border-radius: 2px;
+}
+.btn-top i{
+	margin-right:6px;
+}
+#btn-message{
+	color:blue;
+	border:solid 1px blue;
+}
+.user-photo{
+	position: relative;
+	float:left;
+	height:160px;
+	width:160px;
+	border:solid 5px black;
+	border-radius: 5px;
+	left:20px;
+	top:50px;
+}
+
+/* -- content-left -- */
+.m-content{
+	margin-top:10px;
+	border-radius: 3px;
+	display: flex;
+}
+.m-left{
+	padding:20px;
+	border:solid 1px #bbb;
+	background-color: white;
+	width:70%;
+}
+.btn-title{
+	float: left;
+	padding:8px 0;
+	margin:8px 20px;
+	cursor: pointer;
+}
+/*.m-artical{border:solid 1px black;}*/
+.u-list{
+	border-top:solid 1px #ccc;
+	padding: 0 0 15px 0;
+}
+.list-title{
+	display: inline-block;
+	margin:10px 0 ;
+	color:black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.list-content{
+	margin:5px 0;
+	height:100px;
+}
+.list-image{
+	float:left;
+	margin:0px 20px 0 0;
+	width:150px;
+	height:100px;
+}
+.btn-action{
+	padding:5px 10px;
+	color:#777;
+	background-color: white;
+	font-size: 14px;
+	border:0;
+}
+.btn-action i{margin-right:7px;}
+.btn-thumbs-up{
+	color:blue;
+	background-color: lightblue;
+	padding:8px 16px;
+}
+
+
+/* -- content-right -- */
+.m-right{
+	margin-left:10px;
+	width:30%;
+}
+.u-attention{
+	background-color: white;
+	height:75px;
+	display: flex;
+	border-radius: 3px;
+	border: solid 1px #ccc;
+}
+.attention-list{
+	padding:20px;
+	text-align: center;
+	width:50%;
+	line-height: 12px;
+}
+.emmm{
+	border-top:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	padding:20px;
+	margin:10px 0 ;
+}
