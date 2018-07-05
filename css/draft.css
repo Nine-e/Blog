@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-04 09:24:08
+ * @version $Id$
+ */
+ .draft-nav {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .draft-nav h1 {
+ 	font-size: 2em;
+ 	color: #808080;
+ }
+ .draft-nav-left {
+ 	padding-left: 1%;
+ }
+ .draft-nav-middle {
+ 	padding-top: 1.5%;
+ 	font-weight: lighter;
+ }
+ .draft-nav-right {
+ 	display: flex;
+ 	position: absolute;
+ 	top: 2%;
+ 	left: 90%;
+ }
+ .draft-nav h4 {
+ 	font-size: 1.1em;
+ 	color: #979797;
+ }
+ .draft-nav-right-article {
+ 	margin-top: 25%;
+ }
+ .draft-nav-right-article a:hover {
+ 	text-decoration: none;
+ }
+ .draft-nav-right-nav {
+ 	margin-top: 25%;
+ 	position: absolute;
+ 	left: 120%;
+ }
+ .draft-nav-right-nav a {
+ 	margin: -5% 0 -5% 0;
+ }
+ #nav-hidden {
+ 	width: 110px;
+ 	position: relative;
+ 	left: -180%;
+ 	margin-top: 15%;
+
+ }
+ #nav-hidden ul a {
+ 	text-decoration: none;
+ 	color: #979797;
+ }
+ .draft-content {
+ 	margin-top: 5%;
+ }
+ .draft-content-bar {
+ 	margin-top: 2%;
+ }
+ .draft-content-bar a:hover {
+ 	text-decoration: none;
+ 	color: #000000;
+ }
+ .bar-title {
+ 	font-size: 1.1em;
+ 	font-weight: 400;
+ 	position: relative;
+ 	left: 22.5%;
+ 	color: #000000;
+ }
+ .bar-delete {
+ 	border-bottom: 1px solid #f0f0f0;
+ 	padding-bottom: 2%;
+ 	margin-right: 42%;
+ 	padding-top: 0.5%;
+ 	position: relative;
+ 	left: 22.5%;
+ 	color: #979797;
+ 	font-size: 0.8em;
+ }
+ .pagination {
+ 	display: flex;
+ 	justify-content: center;
+ }

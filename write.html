@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>写文章</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+<!-- <script type="text/javascript" src="lib/sweetalert.min.js"></script>
+<link rel="stylesheet" href="lib/sweetalert.css"/> -->
+
+
+<link href="css/write.css" rel="stylesheet">
+  <script type="text/javascript" src="js/writing.js"></script>
+<script type="text/javascript" src="js/draft.js"></script>
+
+<script type="text/javascript" src="lib/sweet-alert.min.js"></script>
+<link href="lib/sweet-alert.css" rel="stylesheet">
+<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+
+
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="writing-whole">
+		<div class="writing-nav">
+			<div class="nav-left"><h1>知</h1></div>
+			<div class="nav-center"></div>
+			<div class="nav-right">
+				<div class="right-drop">保存
+				<div class="right-drop-content">
+					<p><button class="drop-content release">发布文章</button></p>
+					<p><button class="drop-content draft">存为草稿</button></p>
+				</div>
+				</div>
+    			<div class="draft-nav-right-nav container"> 
+    				<a href="#nav-hidden" data-toggle="collapse"><img src="img/draft/point.png">&nbsp;&nbsp;
+    				<div id="nav-hidden" class="collapse">
+    					<ul><a href="homepage.html">首页</a></ul>
+    					<ul><a href="">个人主页</a></ul>
+    				</div>
+    				</a>
+    			</div>
+			</div>
+
+		</div>
+		<div class="writing-middle">
+			<img id="preview">
+			<div class="middle-pic">
+			<input type="file" name="file" class="writing-img" onchange="imgPreview(this)">
+			<img src="img/draft/camera.png">
+			</div>
+			<div class="middle-title"><input placeholder="请输入标题" type="search"></div>
+			<div class="middle-tools">
+				<img src="img/draft/link.png">
+				<img src="img/draft/pic.png">
+				<img src="img/draft/video.png">
+				<input type="file" name="file" class="tools-img" onchange="imgPreview(this)">
+			</div>
+			<div class="middle-article"><textarea placeholder="请输入正文内容"></textarea></div>
+		</div>
+	</div>
+</body>
+</html>
