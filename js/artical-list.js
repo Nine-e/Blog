@@ -47,5 +47,18 @@ $(function(){
 			onUp = true;
 		}
 	});
+
+	// --- layer ---
+	// -- btn-collection --
+	$('.btn-collection').on('click', function(){
+	    layer.open({
+	      type: 2,
+	      title: '收藏文章',
+	      maxmin: true,
+	      shadeClose: true, //点击遮罩关闭层
+	      area : ['500px' , '500px'],
+	      content: '../html/collection.html'
+	    });
+	});
 });
 

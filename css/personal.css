@@ -1,6 +1,6 @@
 ul,li,img,button{padding:0;margin:0;font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;}
 li{list-style: none;}
-body{background-color: #eee;padding:0 20px;}
+body{background-color: #eee;padding:0 20px 20px 20px;}
 button{outline:none;}
 /* -- top -- */
 .m-body{
@@ -54,10 +54,17 @@ button{outline:none;}
 	display: flex;
 }
 .m-left{
-	padding:20px;
+
 	border:solid 1px #bbb;
 	background-color: white;
 	width:70%;
+}
+
+/* - tab - */
+.easytabs{
+	height:44px;
+	border-bottom:solid 1px #ccc;
+	margin-bottom:20px;
 }
 .btn-title{
 	float: left;
@@ -65,7 +72,13 @@ button{outline:none;}
 	margin:8px 20px;
 	cursor: pointer;
 }
-/*.m-artical{border:solid 1px black;}*/
+.btn-title a{
+	text-decoration: none;
+	color:#333;
+}
+
+
+/* -- artical -- */
 .u-list{
 	border-top:solid 1px #ccc;
 	padding: 0 0 15px 0;
@@ -78,7 +91,7 @@ button{outline:none;}
 	font-weight: bold;
 }
 .list-content{
-	margin:5px 0;
+	margin:5px 0 10px 0 ;
 	height:100px;
 }
 .list-image{
@@ -91,16 +104,60 @@ button{outline:none;}
 	padding:5px 10px;
 	color:#777;
 	background-color: white;
-	font-size: 14px;
+	font-size: 13px;
 	border:0;
 }
 .btn-action i{margin-right:7px;}
 .btn-thumbs-up{
 	color:blue;
 	background-color: lightblue;
-	padding:8px 16px;
+	padding:6px 14px;
 }
 
+/* -- collection -- */
+.collect-user-photo{
+	border:solid 1px black;
+	width:36px;
+	height:36px;
+	margin:0 10px 8px 0;
+}
+
+/* -- attention -- */
+
+/* - tab - */
+.a-tabs{
+	height:28px;
+}
+.btn-a{
+	margin-top:0;
+	padding-top:0;
+	margin:0 40px 0 0;
+}
+
+/* - attentioned - */
+.img-attention{
+	height:54px;
+	width:54px;
+	margin:0 20px 0 0;
+}
+.list-a{
+	margin-top:20px;
+	border-top:0;
+	border-bottom:solid 1px #ccc;
+	line-height: 20px;
+}
+.p-attention{
+	font-weight: bold;
+	color:#333;
+	padding:0;margin:0;
+	font-size:15px;
+}
+.btn-gz{
+	margin-left:auto;
+	height:36px;
+	width:90px;
+	border-radius: 3px;
+}
 
 /* -- content-right -- */
 .m-right{
@@ -123,6 +180,7 @@ button{outline:none;}
 .emmm{
 	border-top:solid 1px #ccc;
 	border-bottom:solid 1px #ccc;
-	padding:20px;
+	padding:20px 5px;
 	margin:10px 0 ;
 }
+.statement{font-size: 12px;padding:0 5px;}
