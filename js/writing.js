@@ -54,7 +54,7 @@ function init() {
 					{
 						swal({title:"保存成功！",
 							text:"您已经保存了这篇文章。",
-							type:"success"},function(){window.location.href="writing.html"})
+							type:"success"},function(){window.location.href="draft.html"})
 					}
 					else{
 						swal({title:"已取消",

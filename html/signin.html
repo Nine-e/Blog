@@ -8,6 +8,8 @@
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="../css/signin.css" rel="stylesheet">
+<script type="text/javascript" src = "../lib/jquery/jquery-3.2.1.js"></script>
+<script type="text/javascript" src = "../lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="signinRoot">
@@ -25,14 +27,15 @@
     					<input type="password" name="" placeholder="输入六位短信验证码">
                         <button class="signinPasswordBtn">获取短信验证码</button>
     				</div>
-    				<button class="signinButton">注册</button>
+    				<button type="button" class="signinButton" onclick="location='login.html'">注册</button>
     			</form>
     		</div>
     		<div class="signinToSign">
     			<span>已有账号？</span>
-    			<a href="">登录</a>
+    			<a href="login.html">登录</a>
     		</div>
     	</div>
     </div>
 </body>
+
 </html>

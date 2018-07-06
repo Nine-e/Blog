@@ -73,7 +73,7 @@
 .draft-nav-right-nav {
 	position: absolute;
 	top: 15%;
-	left: 110%;
+	left: 100%;
  }
 
  #nav-hidden {
@@ -100,9 +100,12 @@
  	background-color: #f7f8f9;
  }
  #preview {
- 	height: 240px;
- 	margin-top: 65px;
+ 	border: 1px solid green;
+ 	height: 250px;
+ 	margin-top: 60px;
  	width: 750px;
+ 	position: relative;
+ 	left: 37px;
  	/*position: absolute;
  	height: 250px;
  	top: 26%;
@@ -125,28 +128,29 @@
  	position: absolute;
  	top: 45%;
  }
+
  .middle-title {
  	position: absolute;
  	top: 400px;
- 	left: 375px;
+ 	left: 340px;
  	font-weight: 600;
  	font-size: 1.4em;
  }
  .middle-tools {
  	position: absolute;
  	top: 465px;
- 	left: 375px;
+ 	left: 340px;
  	width: 755px;
  }
  .middle-article {
  	position: absolute;
  	top: 545px;
- 	left: 375px;
+ 	left: 340px;
  	font-size: 1.1em;
  }
  .middle-tools {
- 	border-top: 1px solid #f7f8f9;
- 	border-bottom: 1px solid #f7f8f9;
+ 	border-top: 1px solid #8ba0c3;
+ 	border-bottom: 1px solid #8ba0c3;
  	padding-left: 10px;
  }
  .middle-tools img {

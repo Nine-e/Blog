@@ -7,17 +7,16 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 
-<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="../lib/jquery.js"></script>
 <!-- <script type="text/javascript" src="lib/sweetalert.min.js"></script>
 <link rel="stylesheet" href="lib/sweetalert.css"/> -->
 
 
-<link href="css/write.css" rel="stylesheet">
-  <script type="text/javascript" src="js/writing.js"></script>
-<script type="text/javascript" src="js/draft.js"></script>
+  <script type="text/javascript" src="../js/writing.js"></script>
+<script type="text/javascript" src="../js/draft.js"></script>
 
-<script type="text/javascript" src="lib/sweet-alert.min.js"></script>
-<link href="lib/sweet-alert.css" rel="stylesheet">
+<script type="text/javascript" src="../lib/sweet-alert.min.js"></script>
+<link href="../lib/sweet-alert.css" rel="stylesheet">
 <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
 
@@ -26,6 +25,7 @@
   <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
+<link href="../css/write.css" rel="stylesheet">
 </head>
 <body>
 	<div class="writing-whole">
@@ -40,10 +40,10 @@
 				</div>
 				</div>
     			<div class="draft-nav-right-nav container"> 
-    				<a href="#nav-hidden" data-toggle="collapse"><img src="img/draft/point.png">&nbsp;&nbsp;
+    				<a href="#nav-hidden" data-toggle="collapse"><img src="../pic/draft/point.png">&nbsp;&nbsp;
     				<div id="nav-hidden" class="collapse">
-    					<ul><a href="html/home.html">首页</a></ul>
-    					<ul><a href="">个人主页</a></ul>
+    					<ul><a href="../html/home.html">首页</a></ul>
+    					<ul><a href="../html/personal.html">个人主页</a></ul>
     				</div>
     				</a>
     			</div>
@@ -54,13 +54,13 @@
 			<img id="preview">
 			<div class="middle-pic">
 			<input type="file" name="file" class="writing-img" onchange="imgPreview(this)">
-			<img src="img/draft/camera.png">
+			<img src="../pic/draft/camera.png">
 			</div>
 			<div class="middle-title"><input placeholder="请输入标题" type="search"></div>
 			<div class="middle-tools">
-				<img src="img/draft/link.png">
-				<img src="img/draft/pic.png">
-				<img src="img/draft/video.png">
+				<img src="../pic/draft/link.png">
+				<img src="../pic/draft/pic.png">
+				<img src="../pic/draft/video.png">
 				<input type="file" name="file" class="tools-img" onchange="imgPreview(this)">
 			</div>
 			<div class="middle-article"><textarea placeholder="请输入正文内容"></textarea></div>

@@ -26,11 +26,11 @@ $(function(){
 	});
 
 	// --- btn-invisible ---
-	$(".comment-list").mouseover(function(){
+	$(".comment-list, .left-part").mouseover(function(){
 		var index = $(this).index();
 		$(".btn-invisible").eq(index).css('display','inline-block');
 	});
-	$(".comment-list").mouseout(function(){
+	$(".comment-list, .left-part").mouseout(function(){
 		var index = $(this).index();
 		$(".btn-invisible").eq(index).css('display','none');
 	});
